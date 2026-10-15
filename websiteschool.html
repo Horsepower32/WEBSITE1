@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global High School Mbarara | GOD FIRST | EST. 2015</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+:root{--blue:#0F2D6B;--blue2:#123A8C;--yellow:#FFC600}
+nav{width:100%;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:10px 4%;border-bottom:1px solid #eee;position:sticky;top:0;z-index:99}
+.logo{display:flex;align-items:center;gap:10px}
+.logo b{color:#0F2D6B;line-height:1.1;font-size:17px}
+.nav-links a{margin:0 10px;text-decoration:none;color:#333;font-weight:600;font-size:14px}
+.btn-yellow{background:var(--yellow);color:#222;padding:10px 20px;border-radius:8px;font-weight:800;text-decoration:none;display:inline-block;font-size:14px;border:0;cursor:pointer}
+.hero{display:grid;grid-template-columns:1.1fr 1.9fr;min-height:420px;background:#0F2D6B}
+.hero-left{color:#fff;padding:45px 4%;display:flex;flex-direction:column;justify-content:center}
+.hero-left h1{font-size:42px;line-height:.95;font-weight:900;text-transform:uppercase}
+.motto{color:var(--yellow);font-weight:700;margin:12px 0;font-size:14px}
+.hero-right{
+background-image: url('images/Schoolimage.jpeg');
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: top center;
+
+
+}
+.about{padding:35px 4%;text-align:center}
+.about h2{color:var(--blue);font-size:24px;margin-bottom:18px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr 1fr 1.3fr;gap:18px;text-align:left}
+.acad-box{background:#f3f4f6;border-radius:10px;padding:12px}
+.acad-cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.acad-cols div{border-radius:8px;padding:10px;font-size:11.5px}
+.science{background:#FFF6CC} .human{background:var(--blue);color:#fff} .voc{background:var(--yellow)}
+.split{display:grid;grid-template-columns:1fr 1.6fr}
+.gallery-sec{padding:20px 4%} .gallery-sec h2{color:var(--blue);text-align:center}
+.gallery-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gallery-grid img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+.adm-header{background:var(--blue2);color:#fff;padding:14px 4%;text-align:center}
+.adm-body{padding:18px 4%;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;background:#f9fafb}
+.step{background:#fff;border-radius:10px;padding:12px;display:flex;gap:10px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.num{background:var(--yellow);width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:800;flex-shrink:0}
+.visit{display:grid;grid-template-columns:1.1fr .9fr;gap:15px;padding:18px 4%;background:#f9fafb}
+footer{background:#0A1F4D;color:#aab6d1;padding:14px 4%;display:flex;justify-content:space-between;font-size:11px}
+@media(max-width:900px){.hero,.about-grid,.split,.visit,.adm-body{grid-template-columns:1fr} .nav-links{display:none}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo"><div style="width:48px;height:48px;background:#0F2D6B;border-radius:50%;display:grid;place-items:center;color:#FFD600;font-weight:900">†</div><div><b>GLOBAL HIGH SCHOOL<br>MBARARA</b><small style="color:#DAA000;font-size:11px"></small></div></div>
+<div class="nav-links"><a href="#home" style="color:#FFD600;border-bottom:2px solid #FFD600">Home</a><a href="#about">About</a><a href="#academics">Academics</a><a href="#gallery">Gallery</a><a href="#admission">Admissions</a><a href="#">News & Events</a><a href="#">Contact</a></div>
+<a href="#admission" class="btn-yellow">Apply Now •</a>
+</nav>
+
+<div class="hero" id="home">
+<div class="hero-left">
+<h1>WELCOME TO<br>GLOBAL HIGH SCHOOL<br>MBARARA</h1>
+<div class="motto"> GOD FIRST </div>
+<p style="font-size:13px;opacity:.9;margin-bottom:18px">Empowering Young Minds for Excellence, Leadership & Service</p>
+<div style="display:flex;gap:10px"><a href="#admission" class="btn-yellow">Admissions Open  →</a><a href="#about" style="border:1.5px solid #fff;color:#fff;padding:10px 20px;border-radius:8px;text-decoration:none;font-size:13px">Learn More</a></div>
+</div>
+<div class="hero-right"></div>
+<div class="hero-right img">
+<img src="Schoolimage.jpeg">
+</div>
+</div>
+<section class="about" id="about">
+<h2>ABOUT GLOBAL HIGH SCHOOL MBARARA</h2>
+<div class="about-grid">
+<div><h3>  Our Story</h3><p style="font-size:12.5px;color:#444">Founded in 2015 in the heart of Mbarara, Global High School Mbarara is committed to delivering quality secondary education rooted in Christian values.</p></div>
+<div><h3>  Our Mission</h3><p style="font-size:12.5px;color:#444">To provide a holistic education that empowers students spiritually, academically, and socially, guided by the motto GOD FIRST.</p></div>
+<div><h3>  Why Choose Us?</h3><p style="font-size:12.5px;color:#444">Modern facilities • Experienced teachers • Strong STEM & Humanities • Safe, inclusive environment</p></div>
+<div class="acad-box" id="academics"><h4 style="text-align:center;color:#0F2D6B">ACADEMICS</h4><small style="display:block;text-align:center;font-size:11px;color:#666;margin-bottom:10px">Comprehensive curriculum for O & A Level (UNEB)</small><div class="acad-cols"><div class="science"><b>Science Department</b>Biology, Chemistry, Physics, Mathematics, ICT Lab</div><div class="human"><b>Humanities</b>History, Geography, CRE, Literature, Entrepreneurship</div><div class="voc"><b>Vocational & Skills</b>Computer Skills, Agriculture, Art & Design, Music</div></div></div>
+</div>
+</section>
+
+<div class="split">
+<div class="gallery-sec" id="gallery"><h2>GALLERY</h2><p style="color:#666;text-align:center;font-size:13px;margin-bottom:15px">Life at Global High School Mbarara</p><div class="gallery-grid">
+    <img src="1.jpeg">
+    <img src="2.jpeg">
+    <img src="3.jpeg">
+    <img src="4.jpeg">
+</div></div>
+<div style="background:#fff" id="admission"><div class="adm-header"><h2>ADMISSIONS OPEN FOR 2026</h2><p style="color:#FFC600;font-size:12px">Applications are now open for Senior 1 and Senior 5, 2026 intake. Limited spaces available.</p></div><div class="adm-body"><div class="step"><div class="num">1</div><div><b style="font-size:13px">Apply Online</b><br><span style="font-size:11px;color:#666">Fill form on website</span></div></div><div class="step"><div class="num">2</div><div><b style="font-size:13px">Submit Requirements</b><br><span style="font-size:11px;color:#666">Academic transcripts, birth certificate</span></div></div><div class="step"><div class="num">3</div><div><b style="font-size:13px">Entrance Interview</b><br><span style="font-size:11px;color:#666">Schedule interview and assessment</span></div></div></div><div style="padding:0 4% 18px;background:#f9fafb"><a href="#" onclick="alert('PDF Demo');return false" class="btn-yellow" style="font-size:12px">Download Admission Form (PDF)</a></div>
+<div class="visit"><div><h3 style="color:#0F2D6B;font-size:15px">VISIT US IN MBARARA</h3><div style="background:#e5e7eb;border-radius:10px;height:180px;display:grid;place-items:center;color:#666;font-size:12px">📍 Map<br>Mbarara - Kamukuzi Hill<br>Global High School</div></div><div style="font-size:12.5px"><b>Address:</b> Kamukuzi Hill, Mbarara City<br><br><b>Phone:</b> +256 700 123 456<br><br><b>Email:</b> admissions@globalhighschoolmbarara.ac.ug<br><br><div style="background:#fff;padding:12px;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.06)"><b>Quick Apply:</b><br><input id="name" placeholder="Student Name" style="width:100%;padding:8px;margin:5px 0;border:1px solid #ccc;border-radius:6px"><input id="phone" placeholder="Phone 07..." style="width:100%;padding:8px;margin:5px 0;border:1px solid #ccc;border-radius:6px"><button onclick="if(document.getElementById('name').value){document.getElementById('done').style.display='block'}else{alert('Enter name')}" class="btn-yellow" style="width:100%;margin-top:5px">Submit</button><p id="done" style="display:none;color:green;font-weight:700;margin-top:6px">✅ Received! We will call you.</p></div></div></div></div>
+</div>
+
+<footer><div>© 2025 Global High School Mbarara. All Rights Reserved.<br>GOD FIRST • Excellence • Integrity • Service</div><div>Privacy Policy | Terms of Use | Careers</div></footer>
+</body>
+</html>
